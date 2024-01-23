@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.angel-nav-bar{
+    background-color: #ffdabe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.angel-nav-bar nav{
+    padding: 40px;
+}
+.angel-nav-bar nav li{
+    list-style: none;
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+.angel-nav-bar nav li a{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+.angel-main{
+    background-color: #6b353c;
+    width: 100vw;
+}
+.container{
+    display: flex;
+}
+.info-container-home{
+    /*background-color: #bb7b60;*/
+    height: 60vh;
+    width: 80vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dev-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.hi{
+   font-size: 2.5em;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Sawarabi Mincho', serif;
+}
+
+.about{
+    font-size: 2.3em;
+}
+
+.infoabout{
+    font-size: 1.7em;
+    font-family: 'Sawarabi Mincho', serif;
+    margin-top: 18px;
+}
+
+.buttons{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.btn{
+    padding: 7px 14px;
+    border-radius: 15px;
+    color: black;
+    background-color: #ffdabe;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-color: #755141;
+}
+.btn-sm{
+    font-size: 15px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    color: #ffdabe;
+    background-color: black;
+    
+}
+.dev-pic img{
+    height: 60vh;
+}
+
+.contact-form{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 0 30px;
+}
+.contact-form h1{
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 0;
+}
+.contact-form form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input{
+    /*width: 23vw;*/
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 3px;
+}
+.contact-form form{
+    margin: 0 40px;
+}
+
+#emailHelp{
+   color: #f3b89d;
+   font-size: 11px;
+   margin: 0 4px;
+   padding: 3px 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+.form-check-input{
+    width: 18px;
+    margin: 3px 0;
+}
+
+
+.project-container{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px 40px 50px 57px;
+    font-size: 20px;
+}
+.project-container h1{
+    color: white;
+    margin-bottom: 23px;
+}
+
+.project-links{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+.project-links:hover{
+    color: #ffdabe;
+}
+.project-para{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.info-container{
+    color: white;
+}
+
+.work{
+    margin-left: 50px;
+}
+.work h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 12px;
+    text-decoration: underline;
+}
+.work h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 12px;
+}
+.work p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+    font-size: 16px;
+}
+.exp-para{
+    color: white;
+    text-decoration: none;
+}
+.exp-para:hover{
+    color: #ffdabe;
+}
+
+.skill-container{
+    padding: 12px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skill-item{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.skill{
+    width: 250px;
+    height: 10px;
+    background-color: #bb7b60;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.hundered{
+    width: 250px;
+    background-color: #ffdabe;
+}
+.fifty{
+    width: 125px;
+    background-color: #f3b89d;
+}
+.twentyfive{
+    width: 75px;
+    background-color: #bb7b60;
+}
+
+.angel-nav-bar-go{
+    transform: translate(-400px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    margin-top: 10px;
+}
+
+.ham{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.cross{
+    width: 20px;
+    height: 20px;
+    margin-left: 150px;
+}
+
+@media (max-width: 1200px) {
+    .buttons{
+        font-size: 7px;
+    }
+    .dev-info .work p{
+        font-size: 10px;
+    }
+    .dev-pic{
+        display: none;
+    }
+    .work .project-container .contact-form{
+        margin: 50px 8px;
+    }
+    /**{
+        *background-color: red;
+    }
+    .angel-nav-bar{
+        transform: translate(-400px, 0px);
+        position: absolute;
+    }*/
+}
